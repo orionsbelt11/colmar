@@ -1,0 +1,36 @@
+
+html {
+  font-family: georgia;
+  font-size: 12;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  border: 1px solid green;
+}
+
+.logo {
+  font-family: sans-serif; /*replace with Libre Frankline using font-face*/
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin: auto 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #454849;
+}
+
+.logo a {
+  color: #C51631;
+  font-weight: lighter;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin: auto 24px;
+}
